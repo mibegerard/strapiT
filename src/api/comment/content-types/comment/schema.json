@@ -1,0 +1,54 @@
+{
+    "collectionName": "comments",
+    "info": {
+      "singularName": "comment",
+      "pluralName": "comments",
+      "displayName": "Comment",
+      "description": "Commentaires des utilisateurs liés à des articles"
+    },
+    "options": {
+      "draftAndPublish": false
+    },
+    "attributes": {
+      "content": {
+        "type": "text",
+        "required": true
+      },
+      "rating": {
+        "type": "integer",
+        "min": 1,
+        "max": 5
+      },
+      "article": {
+        "type": "relation",
+        "relation": "manyToOne",
+        "target": "api::article.article",
+        "inversedBy": "comments"
+      },
+      "author": {
+        "type": "relation",
+        "relation": "manyToOne",
+        "target": "plugin::users-permissions.user",
+        "inversedBy": "comments"
+      },
+      "parent": {
+        "type": "relation",
+        "relation": "manyToOne",
+        "target": "api::comment.comment",
+        "inversedBy": "children"
+      },
+      "children": {
+        "type": "relation",
+        "relation": "oneToMany",
+        "target": "api::comment.comment",
+        "mappedBy": "parent"
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+}
+  

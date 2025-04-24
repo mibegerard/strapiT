@@ -25,7 +25,27 @@
         "__component": "shared.media",
         "file": "coffee-art.jpg"
       }
-    ]
+    ],
+    "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
+        }
+      ]
   },
   "categories": [
     {
@@ -95,6 +115,26 @@
           "__component": "shared.slider",
           "files": ["coffee-art.jpg", "coffee-beans.jpg"]
         }
+      ],
+      "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
+        }
       ]
     },
     {
@@ -129,6 +169,26 @@
         {
           "__component": "shared.slider",
           "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ],
+      "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
         }
       ]
     },
@@ -165,6 +225,26 @@
           "__component": "shared.slider",
           "files": ["coffee-art.jpg", "coffee-beans.jpg"]
         }
+      ],
+      "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
+        }
       ]
     },
     {
@@ -200,6 +280,26 @@
           "__component": "shared.slider",
           "files": ["coffee-art.jpg", "coffee-beans.jpg"]
         }
+      ],
+      "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
+        }
       ]
     },
     {
@@ -234,6 +334,26 @@
         {
           "__component": "shared.slider",
           "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ],
+      "comments": [
+        {
+          "content": "This is an amazing article!",
+          "rating": 5,
+          "author": {
+            "id": 2
+          },
+          "createdAt": "2023-10-01T12:00:00Z",
+          "updatedAt": "2023-10-01T12:00:00Z"
+        },
+        {
+          "content": "Very informative, thank you!",
+          "rating": 4,
+          "author": {
+            "id": 3
+          },
+          "createdAt": "2023-10-02T14:30:00Z",
+          "updatedAt": "2023-10-02T14:30:00Z"
         }
       ]
     }
